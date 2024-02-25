@@ -1,0 +1,98 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Site styles */
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-palette {
+  padding: 32px;
+}
+
+.home-palette h1 {
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+.home-palette ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.home-palette li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-palette .color-square {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--color-text);
+  border-radius: 4px;
+}

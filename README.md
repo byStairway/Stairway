@@ -1,2 +1,3 @@
-# Stairway
- The Main Web Application for this Organization
+## Stairway Web
+This is the main hub and website for Stairway project
+## Contributing
